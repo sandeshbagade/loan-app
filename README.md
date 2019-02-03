@@ -4,11 +4,6 @@
 - The Display component takes the App state values as 'year' and 'amount' props respectively and uses their values to automatically calculate both 'APR' percentages and a monthly repayment.
 - Both APR and repayments are displayed within a reusable DisplayChild component.
 
-## Improvements
-
-- Lines 25-32 and 33-42 could have been refactored into 2 reusable components for easier testing.
-- Tests!
-
 ## Installation
 
 ### Setup
