@@ -1,6 +1,5 @@
 ## How this app works
 
-- All 'Must-haves' instructions have been met.
 - As a user drags the sliders, their onChange handlers dynamically set the App component state with their values.
 - The Display component takes the App state values as 'year' and 'amount' props respectively and uses their values to automatically calculate both 'APR' percentages and a monthly repayment.
 - Both APR and repayments are displayed within a reusable DisplayChild component.
@@ -8,8 +7,7 @@
 ## Improvements
 
 - Lines 25-32 and 33-42 could have been refactored into 2 reusable components for easier testing.
-- I would have loved to do the tests with Jest and Enzyme.
-- Styling always be improved, perhaps using styled-components.
+- Tests!
 
 ## Installation
 
@@ -21,8 +19,6 @@
 - to run the application type `npm start` after installing the dependencies
 
 ### Tests
-
-- Note: I did not manage to do unit tests with Jest and Enzyme for this project, but would love to be able to do so at some point later!
 
 - while still in the directory from your terminal, run `npm run test` to run any default snapshot tests
 
