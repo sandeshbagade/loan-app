@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How this app works
 
-## Available Scripts
+- All 'Must-haves' instructions have been met.
+- As a user drags the sliders, their onChange handlers dynamically set the App component state with their values.
+- The Display component takes the App state values as 'year' and 'amount' props respectively and uses their values to automatically calculate both 'APR' percentages and a monthly repayment.
+- Both APR and repayments are displayed within a reusable DisplayChild component.
 
-In the project directory, you can run:
+## Improvements
 
-### `npm start`
+- Lines 25-32 and 33-42 could have been refactored into 2 reusable components for easier testing.
+- I would have loved to do the tests with Jest and Enzyme.
+- Styling always be improved, perhaps using styled-components.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Setup
 
-### `npm test`
+- unzip the compressed folder
+- from your terminal, `cd` into the folder
+- run the command `npm i` to install the dependencies
+- to run the application type `npm start` after installing the dependencies
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tests
 
-### `npm run build`
+- Note: I did not manage to do unit tests with Jest and Enzyme for this project, but would love to be able to do so at some point later!
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- while still in the directory from your terminal, run `npm run test` to run any default snapshot tests
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Amount Range Slider
 
-### `npm run eject`
+- a controlled component that can accept number values between 1000 and 20000
+- increases or decreases by a number value of 100 at a time ('step' prop)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Years Range Slider
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- a controlled component that can accept number values between 1 and 5
+- the values indicate the amount of years rather than months
+- increases or decreases by a number value of 0.5 years at a time ('step' prop), to represent changes of 6 months at a time
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Display component
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- must have two props: 'years' and 'amount', both values are numbers.
 
-## Learn More
+### DisplayChild component
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- must have two props: 'func' and 'text'. 'Func' takes in a function as its value and 'text' a string.
