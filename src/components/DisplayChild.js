@@ -10,10 +10,8 @@ const DisplayChild = ({ func, text }) => {
 };
 
 DisplayChild.defaultProps = {
-  func: () => {
-    return <p>Missing func props!</p>;
-  },
-  text: "No value provided!"
+  func: () => <p>Missing numeric value</p>,
+  text: "No value provided"
 };
 
 DisplayChild.propTypes = {
