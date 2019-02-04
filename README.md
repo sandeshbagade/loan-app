@@ -14,7 +14,7 @@ https://codepen.io/GavBarosee/pen/PVwMvG
 
 ### Setup
 
-- unzip the compressed folder
+- Unzip the compressed folder
 - from your terminal, `cd` into the folder
 - run the command `npm i` to install the dependencies
 - to run the application type `npm start` after installing the dependencies
