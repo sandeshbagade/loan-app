@@ -4,6 +4,17 @@
 - The Display component takes the App state values as 'year' and 'amount' props respectively and uses their values to automatically calculate both 'APR' percentages and a monthly repayment.
 - Both APR and repayments are displayed within a reusable DisplayChild component.
 
+
+## Demo 
+
+<p class="codepen" data-height="533" data-theme-id="dark" data-default-tab="js,result" data-user="GavBarosee" data-slug-hash="PVwMvG" style="height: 533px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="React Loan Calculator ">
+  <span>See the Pen <a href="https://codepen.io/GavBarosee/pen/PVwMvG/">
+  React Loan Calculator </a> by Gavish Barosee (<a href="https://codepen.io/GavBarosee">@GavBarosee</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+
 ## Installation
 
 ### Setup
