@@ -7,10 +7,7 @@
 
 ## Demo 
 
-<iframe height="533" style="width: 100%;" scrolling="no" title="React Loan Calculator " src="//codepen.io/GavBarosee/embed/PVwMvG/?height=533&theme-id=dark&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/GavBarosee/pen/PVwMvG/'>React Loan Calculator </a> by Gavish Barosee
-  (<a href='https://codepen.io/GavBarosee'>@GavBarosee</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+https://codepen.io/GavBarosee/pen/PVwMvG
 
 
 ## Installation
