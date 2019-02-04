@@ -5,6 +5,10 @@
 - Both APR and repayments are displayed within a reusable DisplayChild component.
 
 
+## Preview
+
+![](calculator.gif)
+
 ## Demo 
 
 https://codepen.io/GavBarosee/pen/PVwMvG
