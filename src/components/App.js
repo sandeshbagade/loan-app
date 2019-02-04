@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import InputRange from "react-input-range";
 import Display from "./Display";
 
-import "../styles/App.css";
+import "../styles/Calculator.css";
 import "react-input-range/lib/css/index.css";
 
-class App extends Component {
+class Calculator extends Component {
   state = {
     amountValue: 5000,
     yearsValue: 1
@@ -47,4 +47,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Calculator;
