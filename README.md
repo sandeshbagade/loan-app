@@ -7,12 +7,10 @@
 
 ## Demo 
 
-<p class="codepen" data-height="533" data-theme-id="dark" data-default-tab="js,result" data-user="GavBarosee" data-slug-hash="PVwMvG" style="height: 533px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="React Loan Calculator ">
-  <span>See the Pen <a href="https://codepen.io/GavBarosee/pen/PVwMvG/">
-  React Loan Calculator </a> by Gavish Barosee (<a href="https://codepen.io/GavBarosee">@GavBarosee</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<iframe height="533" style="width: 100%;" scrolling="no" title="React Loan Calculator " src="//codepen.io/GavBarosee/embed/PVwMvG/?height=533&theme-id=dark&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/GavBarosee/pen/PVwMvG/'>React Loan Calculator </a> by Gavish Barosee
+  (<a href='https://codepen.io/GavBarosee'>@GavBarosee</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 
 ## Installation
